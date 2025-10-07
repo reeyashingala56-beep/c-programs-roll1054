@@ -7,7 +7,7 @@ int main()
   printf("Enter first string :");
   fgets(str1,,sizeof(str1),stdin);
   printf("Enter second string :");
-  gets(str2,sizeof(str2),stdin);
+  fgets(str2,sizeof(str2),stdin);
   strcat(str1,str2);
   printf("After concatenation:%s \n",str1);
   return 0;
