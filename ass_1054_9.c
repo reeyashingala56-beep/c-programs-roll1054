@@ -10,12 +10,12 @@ int main()
     {
         scanf("%d", &arr[i]);
     }
-    smallest = arr[0];  // Assume first element is smallest
+    smallest = arr[0]; 
     for(i = 1; i <= n; i++) 
     {
         if(arr[i] < smallest) 
         {
-            smallest = arr[i];  // Update smallest
+            smallest = arr[i];
         }
     }
     printf("The smallest element in the array is: %d\n", smallest);
